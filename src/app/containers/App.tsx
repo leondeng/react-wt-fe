@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {IDispatch} from '~react-redux~redux';
+import {Dispatch as IDispatch} from 'redux';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import Header from '../components/Header';
@@ -35,13 +35,13 @@ class App extends React.Component<IAppProps, IAppState> {
   }
 }
 
-function mapStateToProps(state: any) {
+function mapStateToProps(state: any): IAppProps {
   return {
     todos: state.todos
   };
 }
 
-function mapDispatchToProps(dispatch: IDispatch) {
+function mapDispatchToProps(dispatch: IDispatch<any>): IAppProps {
   return {
     actions: bindActionCreators({
       addTodo,

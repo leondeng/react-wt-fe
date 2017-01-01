@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {IStore} from '~react-redux~redux';
+import {Store as IStore} from 'redux';
 import {Provider} from 'react-redux';
 import App from './app/containers/App';
 import configureStore from './app/store/configureStore';

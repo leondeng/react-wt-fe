@@ -68,11 +68,11 @@
     "tslint-loader": "^2.1.0"
   },
   "scripts": {
-    "build": "gulp",
-    "serve": "gulp serve",
-    "serve:dist": "gulp serve:dist",
-    "test": "gulp test",
-    "test:auto": "gulp test:auto"
+    "build": "node_modules/.bin/gulp",
+    "serve": "node_modules/.bin/gulp serve",
+    "serve:dist": "node_modules/.bin/gulp serve:dist",
+    "test": "node_modules/.bin/gulp test",
+    "test:auto": "node_modules/.bin/gulp test:auto"
   },
   "eslintConfig": {
     "root": true,
