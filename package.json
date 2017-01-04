@@ -1,6 +1,6 @@
 {
   "name": "react-wt-fe",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Front End App with Typescript, React, Redux and WebPack",
   "author": "Fan Deng <leondeng@gmail.com>",
   "license": "MIT",
